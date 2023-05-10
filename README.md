@@ -1,13 +1,13 @@
 # SMARTShoppingCart
  ESP32 based SMART Shopping Cart that scans barcodes
 
- <b>Frontend :</b> HTML/CSS, Javascript (Ajax)
- <b>Backend :</b> Python
- <b>Routing API's :</b> Flask framework
- <b>Database :</b> MySQL
- <b>Login :</b> OAuth
- <b>Libraries :</b> Zbar (python)
- <b>Hosted :</b> AWS EC2
+ <b>Frontend :</b> HTML/CSS, Javascript (Ajax) </br>
+ <b>Backend :</b> Python </br>
+ <b>Routing API's :</b> Flask framework </br>
+ <b>Database :</b> MySQL </br>
+ <b>Login :</b> OAuth </br>
+ <b>Libraries :</b> Zbar (python) </br>
+ <b>Hosted :</b> AWS EC2 </br>
 
 Checkout the working here! - http://shoppingcart.anaghascu.com/login
 
