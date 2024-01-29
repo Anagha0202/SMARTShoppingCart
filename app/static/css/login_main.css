@@ -1,0 +1,103 @@
+body {
+    font-family: "Roboto";
+    margin: 0;
+      padding: 0;
+      background-image: url("https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png");
+      background-color:rgb(132, 35, 132);
+      background-repeat: no-repeat;
+  }
+  .detail {
+    margin: 0;
+    padding-left: 5px;
+    border: solid gold 3px;
+    background-color: beige;
+  }
+  .google-btn {
+    width: 184px;
+    height: 42px;
+    background-color: #4285f4;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+    display: block;
+  }
+  .google-btn .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  .google-btn .google-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+  .google-btn .btn-text {
+    float: right;
+    margin: 11px 11px 0 0;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+  }
+  .google-btn:hover {
+    box-shadow: 0 0 6px #4285f4;
+  }
+  .google-btn:active {
+    background: #1669f2;
+  }
+  body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("495.jpg");
+  background-color: rgb(132, 35, 132);
+  background-repeat: no-repeat;
+
+  height: fit-content; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+}
+
+.container
+{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  height: 720px;
+}
+
+.indexbox{
+  width: fit-content;
+  height: auto;
+  padding:30px 30px;
+  box-sizing: border-box;
+  background: rgba(255,250,250,0.85);
+  margin: 0 auto;
+border-radius: 40px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+h1{
+   top:-20%;
+  margin: 0 auto;
+  padding: 0 0 40px;
+  color:#2f4f4f;
+   /* font-size:22px; */
+text-align: center;
+}
+
+.indexbox button
+{
+  width: 100%;
+  margin-bottom: 40px;
+}

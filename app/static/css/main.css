@@ -1,0 +1,131 @@
+.container-fluid {
+    /* height : auto; */
+    background-color: rgb(132, 35, 132);
+    margin: 1%;
+    border-radius: 5px;
+}
+
+#img-logo {
+    width:200px;
+    /* max-width: 250px;
+    max-height: 300px; */
+    display: block;
+    margin-left: -5px;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color : whitesmoke
+}
+
+.nav-item {
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.container {
+    background-color:  rgba(255, 255, 255, 0.978);
+    /* background-image: url("495.jpg"); */
+}
+
+.inner-container p {
+    background-color:  rgba(255, 255, 255, 0.356);
+    /* opacity: 0.6; */
+    color: black;
+    /* font-size: 20px; */
+
+}
+
+#hiSymbol {
+    font-size: 100px;
+    text-align: end;
+    width: fit-content;
+  }
+
+#hiText {
+    font-size: 45px;
+}
+
+#shopText {
+    font-size: 60px;
+    text-align: right;
+}
+
+#btn-cart {
+    border-radius: 5px;
+    background-color: rgb(132, 35, 132);
+    color: whitesmoke;
+    float: right;
+    width: 100%;
+    height: 70%;
+    font-size: 25px;
+}
+
+#shopSymbol {
+    font-size: 100px;
+    text-align: end;
+    width: fit-content;
+}
+
+.marquee {
+    height: 25px;
+    width: fit-content;
+  
+    overflow: hidden;
+    position: relative;
+
+    animation: marquee 20s linear infinite;
+
+    color: whitesmoke;
+    margin-top: 1%;
+    font-size: 15px;
+  }
+  
+  @keyframes marquee {
+    0% { left: 100%; right:-100%}
+    100% { left: -100%; }
+  }
+
+#btn-checkout {
+    background-color: rgb(132, 35, 132);
+    font-size: 25px; 
+    text-align:center;
+}
+
+    .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .styled-table thead tr {
+    background-color: #853085;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #853085;
+}
+.button {
+  background-color:#B33F40;
+  border: none;
+  color: white;
+  padding: 0px 6px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
